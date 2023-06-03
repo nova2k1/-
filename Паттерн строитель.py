@@ -40,7 +40,6 @@ class PizzaBuilder:
         return self.pizza
 
 
-# Использование строителя для создания объекта с определенными свойствами
 pizza_builder = PizzaBuilder()
 pizza = pizza_builder.set_size("large").add_cheese().add_pepperoni().build()
-print(pizza)  # Выводит "Size: large, Toppings: cheese
+print(pizza) 
