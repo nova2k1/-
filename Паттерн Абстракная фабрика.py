@@ -1,4 +1,4 @@
-class Shape:
+#class Shape:
     def draw(self):
         pass
 
@@ -32,8 +32,6 @@ class ShapeClient:
         circle = self.factory.create_circle()
         circle.draw()
 
-
-# Использование абстрактной фабрики для создания объектов
 shape_factory = ShapeFactory()
 client = ShapeClient(shape_factory)
-client.draw_shapes()  # Выводит "Drawing a rectangle" и "Drawing a circle"
+client.draw_shapes()
